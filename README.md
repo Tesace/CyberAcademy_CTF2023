@@ -27,7 +27,7 @@
         }
 
         .option-box {
-            width: 200px;
+            width: 500px;
             height: 100px;
             margin: 10px;
             padding: 20px;
@@ -54,7 +54,11 @@
 </div>
 
 <div class="option-box" onclick="redirectToPage('juice1.html')">
-    The Host
+   Juice Shop 1
+</div>
+
+<div class="option-box" onclick="redirectToPage('juice2.html')">
+   Juice Shop 2
 </div>
 
 <script>
