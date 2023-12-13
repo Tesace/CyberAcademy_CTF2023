@@ -86,6 +86,7 @@
     <li>The target address for the challenges not hosted here will be provided and should be used by everyone</li>
     <li>For every challenge solved, have a walkthrough which contains the steps and methods used to solve the challenge and screenshots to backup your steps</li>
     <li>Submit your results to Miracle, copying Tega</li>
+    
 </ul>
 
 <div class="option-container">
