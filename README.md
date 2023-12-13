@@ -33,6 +33,18 @@
             text-align: center;
             cursor: pointer;
         }
+
+        /* Add the table styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        tr {
+            display: flex;
+            justify-content: space-evenly;
+        }
     </style>
 </head>
 <body>
@@ -46,27 +58,39 @@
     <li>Submit your results to Miracle, copying Tega</li>
 </ul>
 
-<div class="option-container">
-    <div class="option-box" onclick="redirectToPage('wheels.html')">
-        The Wheels on the Bus
-    </div>
 
-    <div class="option-box" onclick="redirectToPage('home.html')">
-        Go Hard or Go Green
-    </div>
-
-    <div class="option-box" onclick="redirectToPage('host.html')">
-        The Host
-    </div>
-
-    <div class="option-box" onclick="redirectToPage('juice1.html')">
-        Juice Shop 1
-    </div>
-
-    <div class="option-box" onclick="redirectToPage('juice2.html')">
-        Juice Shop 2
-    </div>
-</div>
+<table>
+    <tr>
+        <td>
+            <div class="option-box" onclick="redirectToPage('wheels.html')">
+                The Wheels on the Bus
+            </div>
+        </td>
+        <td>
+            <div class="option-box" onclick="redirectToPage('home.html')">
+                Go Hard or Go Green
+            </div>
+        </td>
+        <td>
+            <div class="option-box" onclick="redirectToPage('host.html')">
+                The Host
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="option-box" onclick="redirectToPage('juice1.html')">
+                Juice Shop 1
+            </div>
+        </td>
+        <td>
+            <div class="option-box" onclick="redirectToPage('juice2.html')">
+                Juice Shop 2
+            </div>
+        </td>
+        
+    </tr>
+</table>
 
 <script>
     function redirectToPage(pageUrl) {
