@@ -53,6 +53,10 @@
     The Host
 </div>
 
+<div class="option-box" onclick="redirectToPage('juice1.html')">
+    The Host
+</div>
+
 <script>
     function redirectToPage(pageUrl) {
         window.location.href = pageUrl;
