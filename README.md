@@ -11,8 +11,19 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             background-color: #f4f4f4;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: left;
+            margin-bottom: 20px; 
         }
 
         .option-container {
@@ -24,7 +35,7 @@
         }
 
         .option-box {
-            width: 200px;
+            width: calc(33.33% - 20px);
             height: 100px;
             padding: 20px;
             box-sizing: border-box;
@@ -32,24 +43,35 @@
             color: #fff;
             text-align: center;
             cursor: pointer;
+            margin-bottom: 20px;
         }
 
-      
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
-            border:0;
         }
 
         tr {
             display: flex;
             justify-content: space-evenly;
+            flex-wrap: wrap;
         }
 
         td {
-        border: 0; }
-</style>
+            width: calc(33.33% - 20px);
+            box-sizing: border-box;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            /* Adjust styles for small screens */
+            .option-box, td {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -62,39 +84,23 @@
     <li>Submit your results to Miracle, copying Tega</li>
 </ul>
 
-
-<table>
-    <tr>
-        <td>
-            <div class="option-box" onclick="redirectToPage('wheels.html')">
-                The Wheels on the Bus
-            </div>
-        </td>
-        <td>
-            <div class="option-box" onclick="redirectToPage('home.html')">
-                Go Hard or Go Green
-            </div>
-        </td>
-        <td>
-            <div class="option-box" onclick="redirectToPage('host.html')">
-                The Host
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="option-box" onclick="redirectToPage('juice1.html')">
-                Juice Shop 1
-            </div>
-        </td>
-        <td>
-            <div class="option-box" onclick="redirectToPage('juice2.html')">
-                Juice Shop 2
-            </div>
-        </td>
-        
-    </tr>
-</table>
+<div class="option-container">
+    <div class="option-box" onclick="redirectToPage('wheels.html')">
+        The Wheels on the Bus
+    </div>
+    <div class="option-box" onclick="redirectToPage('home.html')">
+        Go Hard or Go Green
+    </div>
+    <div class="option-box" onclick="redirectToPage('host.html')">
+        The Host
+    </div>
+    <div class="option-box" onclick="redirectToPage('juice1.html')">
+        Juice Shop 1
+    </div>
+    <div class="option-box" onclick="redirectToPage('juice2.html')">
+        Juice Shop 2
+    </div>
+</div>
 
 <script>
     function redirectToPage(pageUrl) {
