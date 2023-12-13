@@ -32,6 +32,7 @@
             justify-content: center;
             gap: 10px;
             margin-top: 20px;
+            border:none;
         }
 
         .option-box {
@@ -44,12 +45,14 @@
             text-align: center;
             cursor: pointer;
             margin-bottom: 20px;
+            border:none;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
+            border:none;
         }
 
         tr {
@@ -63,11 +66,12 @@
             box-sizing: border-box;
             padding: 10px;
             margin-bottom: 20px;
+            border:none;
         }
 
         @media only screen and (max-width: 600px) {
-            /* Adjust styles for small screens */
-            .option-box, td {
+            .option-box, 
+            td {
                 width: 100%;
             }
         }
