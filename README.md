@@ -20,11 +20,10 @@
         }
 
         ul {
-            list-style: none;
+            list-style: disc;
             padding: 0;
             text-align: left;
             margin-bottom: 20px;
-            list-style-type: disc;
         }
 
         .option-container {
