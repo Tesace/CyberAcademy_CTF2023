@@ -23,7 +23,8 @@
             list-style: none;
             padding: 0;
             text-align: left;
-            margin-bottom: 20px; 
+            margin-bottom: 20px;
+            list-style-type: disc;
         }
 
         .option-container {
