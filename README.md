@@ -118,6 +118,9 @@
         <div class="option-box" onclick="redirectToPage('recon.html')">
         Recon
     </div>
+     <div class="option-box" onclick="redirectToPage('mysterio.html')">
+        Mysterio
+    </div>
 </div>
 
 <script>
