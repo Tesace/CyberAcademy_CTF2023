@@ -110,7 +110,6 @@
         <div class="option-box" onclick="redirectToPage('juice3.html')">
         Juice Shop 3
     </div>
-    </div>
         <div class="option-box" onclick="redirectToPage('recon.html')">
         Recon
     </div>
