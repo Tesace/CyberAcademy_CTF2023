@@ -124,6 +124,9 @@
     <div class="option-box" onclick="redirectToPage('riddle.html')">
         Riddle
     </div>
+    <div class="option-box" onclick="redirectToPage('riddleII.html')">
+        Riddle 2
+    </div>
 </div>
 
 <script>
