@@ -108,6 +108,9 @@
     <div class="option-box" onclick="redirectToPage('juice2.html')">
         Juice Shop 2
     </div>
+        <div class="option-box" onclick="redirectToPage('juice3.html')">
+        Juice Shop 3
+    </div>
 </div>
 
 <script>
