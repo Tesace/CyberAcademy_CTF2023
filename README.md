@@ -46,6 +46,10 @@
             display: flex;
             justify-content: space-evenly;
         }
+
+        td {
+    border: none; 
+}
     </style>
 </head>
 <body>
