@@ -27,7 +27,7 @@
         }
 
         .option-box {
-            width: 500px;
+            width: 200px;
             height: 100px;
             margin: 10px;
             padding: 20px;
