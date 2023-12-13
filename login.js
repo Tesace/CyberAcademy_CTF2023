@@ -5,7 +5,7 @@ function validateLogin() {
     var cP = "ghjkl";
 
     if (a === cU && b === cP) {
-        alert("DWH{W3LC0ME_H0M3}");
+        alert("RFdIe1czTEMwTUVfSDBNM30=");
     } else {
         alert("Incorrect credentials. Go hard!");
     }
