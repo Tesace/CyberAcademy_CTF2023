@@ -40,19 +40,27 @@
     </style>
 </head>
 <body>
-
+<th>
+    <tr>
+        <td>
 <div class="option-box" onclick="redirectToPage('wheels.html')">
     The Wheels on the Bus
 </div>
+            </td>
 
+
+<td>
 <div class="option-box" onclick="redirectToPage('home.html')">
     Go Hard or Go Green
 </div>
+</td>
 
+<td>
 <div class="option-box" onclick="redirectToPage('host.html')">
     The Host
 </div>
-
+</td>
+</tr>
 <div class="option-box" onclick="redirectToPage('juice1.html')">
    Juice Shop 1
 </div>
@@ -60,7 +68,7 @@
 <div class="option-box" onclick="redirectToPage('juice2.html')">
    Juice Shop 2
 </div>
-
+</th>
 <script>
     function redirectToPage(pageUrl) {
         window.location.href = pageUrl;
