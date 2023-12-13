@@ -2,7 +2,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Options Page</title>
+    <title>CTF 2023</title>
+    <body>
+        <h2>Instructions:</h2>
+        <ul>
+            <li>Complete all challenges in the allotted time</li>
+            <li>The first correct submission within the timeframe wins the CTF, other submissions will be checked as well</li>
+            <li>The target address for the challenges not hosted here will be provided and should be used by everyone</li>
+            <li>For every challenge solved, have a walkthrough which contains the steps and methods used to solve the challenge and screenshots to backup your steps</li>
+            <li>Submit your results to Miracle, copying Tega</li>
+        </ul>
+    </body>
     <style>
         body {
             font-family: Arial, sans-serif;
