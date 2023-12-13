@@ -34,12 +34,12 @@
             cursor: pointer;
         }
 
-        /* Add the table styles */
+      
         table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
-            border:none;
+            border:0;
         }
 
         tr {
@@ -48,9 +48,8 @@
         }
 
         td {
-    border: none; 
-}
-    </style>
+        border: 0; }
+</style>
 </head>
 <body>
 
