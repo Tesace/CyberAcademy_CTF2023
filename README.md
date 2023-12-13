@@ -86,6 +86,9 @@
     <li>The target address for the challenges not hosted here will be provided and should be used by everyone</li>
     <li>For every challenge solved, have a walkthrough which contains the steps and methods used to solve the challenge and screenshots to backup your steps</li>
     <li>Submit your results to Miracle, copying Tega</li>
+    <li>Link to juice shop: https://juice-shop.herokuapp.com/</li>
+    <li>Find the Flag for The wheels on the bus and Go Hard or Go Green</li>
+    <li>Flag format XXX{XXXXXXXXXXXXXXX}</li>
     
 </ul>
 
