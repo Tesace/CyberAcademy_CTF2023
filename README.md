@@ -39,6 +39,7 @@
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
+            border:none;
         }
 
         tr {
