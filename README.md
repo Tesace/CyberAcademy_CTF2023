@@ -19,6 +19,10 @@
             margin-top: 20px;
         }
 
+         h3 {
+            margin-top: 20px;
+        }
+
         ul {
             list-style: disc;
             padding: 0;
@@ -80,6 +84,7 @@
 <body>
 
 <h2>Instructions:</h2>
+<h3>Allotted time: 3 hours</h3>
 <ul>
     <li>Complete all challenges in the allotted time</li>
     <li>The first correct submission within the timeframe wins the CTF, other submissions will be checked as well</li>
